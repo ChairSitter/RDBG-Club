@@ -37,7 +37,7 @@ header {
 }
 
 .triangle {
-    margin-top: 10px;
+    margin-top: 5px;
     text-align: center;
     padding-top: 10px;
     padding-bottom: 0;
@@ -46,7 +46,6 @@ header {
 .triangle img {
     height: 100%;
     width: 98%;
-    opacity: 90%;
 }
 
 @media only screen and (max-width : 1000px) {
@@ -143,14 +142,13 @@ header {
     border-top: 20px black solid;
     border-bottom: 20px black solid;
     margin-bottom: 50px;
-    /*
-    background-image: linear-gradient(to right, #808080, white, #808080);
-    */
+    background-color: #808080;
 }
 
 .images img {
     width: 400px;
     margin: 25px;
+    border-radius: 10px;
 }
 
 /*MAP*/
@@ -163,6 +161,7 @@ header {
 .map p {
     display: block;
     font-size: 3rem;
+    text-align: center;
 }
 
 iframe {
