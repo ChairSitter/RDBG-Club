@@ -58,6 +58,9 @@ header {
     .logo {
         max-width: 130px;
     }
+    .triangle img { /*Attempt to fix iphone issue*/
+        min-height: 318px;
+    }
 }
 
 /*TITLE*/
