@@ -16,7 +16,7 @@ body {
 header {
     background-color: black;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     padding-top: 10px;
 }
 
@@ -83,7 +83,7 @@ header {
 .options {
     display: flex;
     background-color: black;
-    justify-content: space-between;
+    justify-content: space-evenly;
     position: sticky;
     top: 0;
     height: 50px;
@@ -103,6 +103,11 @@ header {
 
 .options a:hover{
     color: gold;
+}
+
+.button a {
+    display: flex;
+    align-items: center;
 }
 
 
