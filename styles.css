@@ -14,7 +14,7 @@ body {
 /*HEADER*/
 
 header {
-    background-color: black;
+    background-image: linear-gradient(to bottom, black, rgb(46, 46, 46));
     display: flex;
     justify-content: space-evenly;
     padding-top: 10px;
