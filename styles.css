@@ -16,8 +16,12 @@ body {
 header {
     background-color: black;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     padding-top: 10px;
+}
+
+.points-left, .points-right {
+    display: flex;
 }
 
 .logo {
@@ -45,7 +49,7 @@ header {
 
 .triangle img {
     height: 100%;
-    width: 98%;
+    width: 99%;
 }
 
 @media only screen and (max-width : 1000px) {
